@@ -439,18 +439,22 @@
         <div class="footer-box-right">
           <p class="footer-subscribe-titel">Subscribe</p>
           <div class="footer-form-subscribe">
-            <input
-              class="footer-input"
-              type="email"
-              name="email"
-              placeholder="E-mail"
-            />
+            <form class="footer-form">
+              <label class="footer-label">
+              <input
+                class="footer-input"
+                type="email"
+                name="email"
+                placeholder="E-mail"
+              />
+              </label>
             <button class="footer-btn" type="submit">
               Subscribe
-              <svg class="footer-btn-icon" width="24" height="20">
+              <svg class="footer-btn-icon" width="24" height="24">
                 <use href="./images/icons.svg#frame"></use>
               </svg>
             </button>
+            </form>
           </div>
         </div>
       </div>
@@ -462,9 +466,8 @@
             <use href="./images/icons.svg#close-black"></use>
           </svg>
         </button>
-        <strong class="modal-titel"
-          >Leave your contacts and we will call you back</strong
-        >
+        <p class="modal-titel"
+          >Leave your contacts and we will call you back</p>
         <!-- <form class="modal-form" name="contacts" autocomplete="off">
           <div class="input-box">
             <label class="form-field" for="user_name">Name</label>

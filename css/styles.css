@@ -453,7 +453,7 @@ body {
   letter-spacing: 0.32px;
   margin-bottom: 16px;
 }
-.footer-form-subscribe {
+.footer-form {
   display: flex;
   align-items: center;
   gap: 24px;
