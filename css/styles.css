@@ -663,19 +663,23 @@ form:focus-within {
 }
 .modal-titel {
   display: block;
+  text-align: center;
   width: 360px;
   margin-bottom: 16px;
-  color: var(--navyblue);
+  color: var(--dark-ck);
   font-weight: 500;
   line-height: 1.5;
   letter-spacing: 0.32px;
 }
 .modal-form {
 }
-.form-label {
-  position: relative;
+.form-label-box{
   display: block;
   margin-bottom: 8px;
+}
+.form-input-box {
+  position: relative;
+
 }
 .input-box {
   width: 100%;
@@ -684,6 +688,7 @@ form:focus-within {
   border-radius: 4px;
   border: 1px solid var(--navyblue-modal, rgba(46, 47, 66, 0.4));
   outline: transparent;
+  background-color: transparent;
   padding: 11px 16px 11px 38px;
   transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
