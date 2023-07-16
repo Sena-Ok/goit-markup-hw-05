@@ -771,6 +771,7 @@ form:focus-within {
 .input-checkbox:checked + .form-text > .form-checkbox-agreement {
   border: var(--ocean);
   background-color: var(--ocean);
+  fill: var(--cloud);
 }
 .input-checkbox:checked + .form-text .form-checkbox-icon{
   opacity: 1;
